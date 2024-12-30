@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="grid">
+      <button
+        class="gallery-btn"
+        popovertargetaction="show"
+        popovertarget="mountain-1"
+      >
+        <img src="/mountain-1-square.jpg" alt="mountain scene" />
+      </button>
+    </div>
+    <div id="mountain-1" popover>
+      <img src="/mountain-1.jpg" alt="mountain scene" />
+      <button
+        aria-label="go forward"
+        popovertargetaction="show"
+        popovertarget="mountain-2"
+      >
+        Next
+      </button>
+    </div>
+    <div id="mountain-2" popover>
+      <img src="/mountain-2.jpg" alt="mountain scene" />
+      <button
+        aria-label="go forward"
+        popovertargetaction="show"
+        popovertarget="mountain-3"
+      >
+        Next
+      </button>
+    </div>
+    <div id="mountain-3" popover>
+      <img src="/mountain-3.jpg" alt="mountain scene" />
+      <button
+        aria-label="go forward"
+        popovertargetaction="show"
+        popovertarget="mountain-4"
+      >
+        Next
+      </button>
+    </div>
+    <div id="mountain-4" popover>
+      <img src="/mountain-4.jpg" alt="mountain scene" />
+
+      <button
+        aria-label="go forward"
+        popovertargetaction="show"
+        popovertarget="mountain-5"
+      >
+        Next
+      </button>
+    </div>
+    <div id="mountain-5" popover>
+      <img src="/mountain-5.jpg" alt="mountain scene" />
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
